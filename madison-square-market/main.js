@@ -1,17 +1,17 @@
 $(document).ready(() => {
-    $('#cart').on('click', ()=> {
-        $('#cartMenu').show();
-    });
+  $('#cart').on('click', ()=> {
+      $('#cartMenu').show();
+  });
 
-    $('#account').on('click', ()=> {
-        $('#accountMenu').show();
-    });
+  $('#account').on('click', ()=> {
+      $('#accountMenu').show();
+  });
 
-    $('#help').on('click', ()=> {
-        $('#helpMenu').show();
-    });
+  $('#help').on('click', ()=> {
+      $('#helpMenu').show();
+  });
 
-    $('.dropdown-menu').on('mouseleave', () => {
-        $('.dropdown-menu').hide();
-    });
+  $('.dropdown-menu').on('mouseleave', () => {
+      $('.dropdown-menu').hide();
+  });
 });
